@@ -4,7 +4,7 @@ pipeline {
     stages {
         stage('Checkout') {
             steps {
-                git branch: 'main', url: 'https://github.com/Manilehra09/repo-fot-jenkin.git'
+                git branch: 'main', url: 'https://github.com/Manilehra09/lmsportal-jenkins.git'
             }
         }
 
